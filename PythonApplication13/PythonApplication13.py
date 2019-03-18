@@ -21,6 +21,7 @@ if client.is_socket_open():
 #result = client.read_holding_registers(4000,4)
 
 #Reads to first 8 coils (Start Position 0 and read for 1 byte)
+
 result = client.read_coils(0,1)
 
 #Write to Cognex Coil to Trigger (This Worked)
